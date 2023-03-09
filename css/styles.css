@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html {
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+section {
+    padding:48px 0
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.formField {
+    margin: 16px;
+
+}
+
+.formField label{
+    font-weight: bold;
+    display: block;
+}
+
+.formField input,
+.formField textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.formField textarea {
+    resize: none;
+    height: 120px;
+   
+}
+
+form {
+    max-width: 320px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style:italic;
+    border-radius: 6px;
+    cursor: pointer;
+    max-width: 120px;
+}
+
